@@ -1,0 +1,22 @@
+{
+	"name": "SuperAttribute",
+	"servePlaceIds": [11745222348],
+	"tree": {
+		"$className": "DataModel",
+		"ServerScriptService": {
+			"$ignoreUnknownInstances": true,
+			"$className": "ServerScriptService",
+			"$path": "src/Server"
+		},
+		"ReplicatedStorage": {
+			"$ignoreUnknownInstances": true,
+			"$className": "ReplicatedStorage",
+			"Packages": {
+				"$path": "Packages",
+				"MainModule": {
+					"$path": "src/Module"
+				}
+			}
+		}
+	}
+}
