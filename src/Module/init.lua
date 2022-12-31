@@ -1,5 +1,4 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Janitor = require(ReplicatedStorage.Packages.Janitor)
+local Janitor = require(script.Packages.Janitor)
 
 local SuperAttribute = {}
 

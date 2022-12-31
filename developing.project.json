@@ -11,10 +11,10 @@
 		"ReplicatedStorage": {
 			"$ignoreUnknownInstances": true,
 			"$className": "ReplicatedStorage",
-			"Packages": {
-				"$path": "Packages",
-				"MainModule": {
-					"$path": "src/Module"
+			"SuperAttribute": {
+				"$path": "src/Module",
+				"Packages": {
+					"$path": "Packages"
 				}
 			}
 		}
