@@ -1,6 +1,6 @@
 {
-	"name": "SuperAttribute",
+	"name": "superattribute",
 	"tree": {
-		"$path": "src/Module"
+		"$path": "lib"
 	}
 }

@@ -1,6 +1,10 @@
-local Janitor = require(script.Packages.Janitor)
+local Janitor = require(script.Parent.Janitor)
 
-local SuperAttribute = {}
+export type SuperAttribute = {
+	new: (Object: Instance) -> ({},{},{});
+}
+
+local SuperAttribute: SuperAttribute = {}
 
 function SuperAttribute.new(Object: Instance)
 	assert(typeof(Instance) == "Instance", "Object must be an Instance!")
@@ -82,4 +86,4 @@ function SuperAttribute:__index(Index: string)
 	return self.__Private__[Index] or self.__ReadOnly__[Index] or self.__Instance__:GetAttribute(Index)
 end
 
-return SuperAttribute
+return SuperAttribute :: SuperAttribute

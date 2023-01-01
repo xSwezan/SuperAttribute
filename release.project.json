@@ -1,0 +1,33 @@
+{
+	"name": "SuperAttribute",
+	"servePlaceIds": [11745222348],
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+
+			"lib": {
+				"$path": "Packages",
+				"$className": "ModuleScript",
+				"$properties": {
+					"Source": "return require(script.lib)"
+				},
+				"lib": {
+					"$path": "lib"
+				}
+			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$path": "src/Server"
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$path": "src/Client"
+			}
+		}
+	}
+}
