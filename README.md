@@ -8,7 +8,7 @@ when using attributes. You also get access to Global, Private and ReadOnly attri
 <h2>🧰 Installation</h2>
 You can install SuperAttribute via:
 
-* [Wally](https:/wally.run/package/xswezan/superattribute)
+* [Wally](https://wally.run/package/xswezan/superattribute)
 * [GitHub](https://github.com/xSwezan/SuperAttribute)
 * [Creator Marketplace](https://www.roblox.com/library/11745988747) <small>(*Not recommended, may not be latest version*)</small>
 
